@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
 }
 body {
     font-family: sans-serif;
@@ -60,8 +61,6 @@ nav a {
 .hero>div>img{
     width: 36vw;
     height: 40vw;
-    box-shadow: 1px 1px 200px 10px black;
-    background-color: rgba(0,0,0,0.8);
 }
 .hero h1 {
     font-size: 3vw;
@@ -130,8 +129,6 @@ nav a {
     display: flex;;
     width: 100%;
     margin: 12vw 0vw 13vw 0vw;
-    background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 200px 10px black;
   }
   #AboutContainer>.AbtImg{
     margin: 0vw 3vw 0vw 6vw;
@@ -216,8 +213,6 @@ nav a {
   #skills {
     padding-top: 5vw;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 200px 10px black;
   }
   #skills>h2{
     font-size: 3vw;
@@ -243,11 +238,12 @@ nav a {
   .skill {
     font-size: 2vw;
     padding-top: 2vw;
-    width: 27vw;
-    height: 25vw;
+    width: 24vw;
+    height: 22vw;
     box-shadow: .1vw .1vw 1vw black;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 2vw;
   }
   .skill>h4{
     color: white;
@@ -295,8 +291,6 @@ nav a {
     width: 100%;
     padding: 5vw 2vw 2vw 2vw;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 200px 10px black;
     margin: 5vw auto;
 }
 
@@ -357,8 +351,6 @@ nav a {
   width: 100%;
   padding: 5vw 2vw 2vw 2vw;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 200px 10px black;
 }
 
 .ProjectContainer>h1 {
@@ -405,7 +397,7 @@ nav a {
 .project {
   position: absolute;
   width: 30vw;
-  height: 23vw;
+  height: 18vw;
   border-radius: 5px;
   border: none;
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
@@ -417,7 +409,7 @@ nav a {
   margin-top: 22vw;
   padding-top: 2vh;
   width: 30vw;
-  height: 23vw;
+  height: 18vw;
   border-radius: 5px;
   border: none;
   button{
@@ -610,7 +602,7 @@ footer{
 .aboutme>h1{
   font-size: 2.5vw;
   color: white;
-  text-shadow: 2px 2px 2px rgb(36, 102, 201);
+  text-shadow: 1px 1px 1px rgb(36, 102, 201);
   margin-bottom: 1vw;
 }
 .aboutme>p{
@@ -622,7 +614,7 @@ footer{
 .links{
   color: rgb(203, 195, 195);
   text-shadow: 2px 2px 2px black;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
 }
 .links>h1{
