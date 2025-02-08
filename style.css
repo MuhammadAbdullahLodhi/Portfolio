@@ -369,9 +369,9 @@ nav a {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2vw;
-  margin: 5vw 0vw;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2vw 0vw;
+  margin-left: 14vw;
 }
 .p1Container{
   overflow: hidden;
@@ -394,6 +394,13 @@ nav a {
   border-radius: 5px;
   border: none;
 }
+.p4Container{
+  overflow: hidden;
+  width: 30vw;
+  height: 23vw;
+  border-radius: 5px;
+  border: none;
+}
 .project {
   position: absolute;
   width: 30vw;
@@ -405,7 +412,7 @@ nav a {
   
 }
 
-.p1content, .p2content, .p3content{ 
+.p1content, .p2content, .p3content, .p4content{ 
   margin-top: 22vw;
   padding-top: 2vh;
   width: 30vw;
@@ -463,6 +470,21 @@ nav a {
     }
    }
   .p3content{
+    margin-top:0 ;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 1.5s;
+  }
+}
+
+.p4Container:hover {
+  .project{
+    box-shadow: none;
+    img{
+      filter: blur(1.3px);
+      transition: 1.5s;
+    }
+   }
+  .p4content{
     margin-top:0 ;
     background-color: rgba(0, 0, 0, 0.7);
     transition: 1.5s;
